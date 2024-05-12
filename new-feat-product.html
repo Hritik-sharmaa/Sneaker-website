@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drip Bay | Sneaker World</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+      integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav>
+      <div class="navbar">
+        <div class="logo">
+          <h2>.Sneaker</h2>
+        </div>
+        <div class="options">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mens.html">Mens</a></li>
+            <li><a href="womens.html" >Womens</a></li>
+            <li><a href="new-featured.html" class="active">New & Featured</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <a href="#" class="close"><i class="ri-close-line"></i></a>
+          </ul>
+        </div>
+        <div class="options-right">
+          <div class="search-box">
+            <i class="ri-search-2-line"
+              ><input type="text" placeholder="Search an item..."
+            /></i>
+          </div>
+          <div class="cart">
+            <a href="cart.html"><i class="ri-shopping-bag-4-line"></i></a>
+          </div>
+          <div class="heart">
+            <i class="ri-heart-3-line"></i>
+          </div>
+        </div>
+      </div>
+      <div class="mobile">
+        <i class="ri-heart-3-line"></i>
+        <i class="ri-shopping-bag-4-line"></i>
+        <i class="ri-menu-line" id="bar"></i>
+      </div>
+    </nav>
+    <!--product details section-->
+    <section class="pro-detail">
+      <div class="pro-img">
+        <img src="images/shoe6.png" width="100%" id="mainImg" />
+        <div class="img-col-group">
+          <div class="img-col">
+            <img src="images/shoe6.png" width="100%" class="small-img" />
+          </div>
+          <div class="img-col">
+            <img src="images/shoe8.png" width="100%" class="small-img" />
+          </div>
+          <div class="img-col">
+            <img src="images/shoe9.png" width="100%" class="small-img" />
+          </div>
+          <div class="img-col">
+            <img src="images/shoe10.png" width="100%" class="small-img" />
+          </div>
+        </div>
+      </div>
+
+      <div class="product-desc">
+        <h6>Nike Dunk Low Premium</h6>
+        <h4>Men's Shoes</h4>
+        <h2>MRP : ₹ 10,795.00</h2>
+        <select>
+          <option>Select size</option>
+          <option>UK 6</option>
+          <option>UK 7</option>
+          <option>UK 8</option>
+          <option>Uk 9</option>
+          <option>UK 10</option>
+          <option>UK 11</option>
+          <option>UK 12</option>
+        </select>
+        <input type="number" value="1" min="1"/>
+        <button>Add To Cart</button>
+        <h4>Product details</h4>
+        <span
+          >New colours and fresh textures give you an updated AJ1 without losing
+          its iconic silhouette and familiar feel. Made from premium materials,
+          this all-time favourite comes decked out with comfortable Nike Air
+          cushioning and subtle design details (check out that embroidered heel)
+          to give you a staple sneaker with a modern look.</span
+        >
+      </div>
+    </section>
+
+    <section class="products">
+      <h2>You Might Also Like</h2>
+      <h5>Products</h5>
+      <div class="pro-container">
+        <div class="product">
+          <img src="images/men product/shoe6.png" />
+          <div class="desc">
+            <span>Nike</span>
+            <h5>Dunk Low Premium</h5>
+            <h6>Men's Shoe</h6>
+            <h4>MRP : ₹ 10,795.00</h4>
+          </div>
+          <a href="#"><i class="ri-heart-3-line like"></i></a>
+        </div>
+        <div class="product">
+          <img src="images/men product/shoe6.png" />
+          <div class="desc">
+            <span>Nike</span>
+            <h5>Dunk Low Premium</h5>
+            <h6>Men's Shoe</h6>
+            <h4>MRP : ₹ 10,795.00</h4>
+          </div>
+          <a href="#"><i class="ri-heart-3-line like"></i></a>
+        </div>
+        <div class="product">
+          <img src="images/men product/shoe6.png" />
+          <div class="desc">
+            <span>Nike</span>
+            <h5>Dunk Low Premium</h5>
+            <h6>Men's Shoe</h6>
+            <h4>MRP : ₹ 10,795.00</h4>
+          </div>
+          <a href="#"><i class="ri-heart-3-line like"></i></a>
+        </div>
+        <div class="product">
+          <img src="images/men product/shoe6.png" />
+          <div class="desc">
+            <span>Nike</span>
+            <h5>Dunk Low Premium</h5>
+            <h6>Men's Shoe</h6>
+            <h4>MRP : ₹ 10,795.00</h4>
+          </div>
+          <a href="#"><i class="ri-heart-3-line like"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-section-->
+    <footer>
+      <div class="foot-container">
+        <div class="foot-logo">
+          <h2>.Sneaker</h2>
+        </div>
+        <div class="foot-desc">
+          <p>Terms of Services</p>
+          <p>Privacy Policy</p>
+          <p>Security</p>
+          <p>Contact Us</p>
+        </div>
+        <div class="bottom-foot">
+          <div class="btm-left">
+            <p>India</p>
+          </div>
+          <div class="foot-links">
+            <i class="ri-instagram-line"></i>
+            <i class="ri-twitter-x-line"></i>
+            <i class="ri-facebook-fill"></i>
+            <i class="ri-github-fill"></i>
+          </div>
+          <div class="btm-right">
+            <p>@2024 .Sneaker, All right reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      let mainImg = document.getElementById("mainImg");
+      let smallImg = document.getElementsByClassName("small-img");
+
+      smallImg[0].onclick = function () {
+        mainImg.src = smallImg[0].src;
+      };
+      smallImg[1].onclick = function () {
+        mainImg.src = smallImg[1].src;
+      };
+      smallImg[2].onclick = function () {
+        mainImg.src = smallImg[2].src;
+      };
+      smallImg[3].onclick = function () {
+        mainImg.src = smallImg[3].src;
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- FAF3DD C8D5B9 8FC0A9 68B0AB ccd5ae e9edc9 fefae0 faedcd  #353537 -->
